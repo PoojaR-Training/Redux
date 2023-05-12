@@ -15,6 +15,7 @@ const ProductWrapper = () => {
     {
       id:1,
       name: 'Product1',
+      description:'This is new Product ',
       price: 100,
       image:
         'https://www.iconpacks.net/icons/2/free-mobile-phone-icon-2636-thumb.png',
@@ -22,6 +23,7 @@ const ProductWrapper = () => {
     {
       id :2,
       name: 'Product2',
+      description:'This is new Product ',
       price: 200,
       image:
         'https://www.iconpacks.net/icons/2/free-mobile-phone-icon-2636-thumb.png',
@@ -29,7 +31,40 @@ const ProductWrapper = () => {
     {
       id :3,
       name: 'Product3',
+      description:'This is new Product ',
       price: 300,
+      image:
+        'https://www.iconpacks.net/icons/2/free-mobile-phone-icon-2636-thumb.png',
+    },
+    {
+      id :4,
+      name: 'Product3',
+      description:'This is new Product',
+      price: 700,
+      image:
+        'https://www.iconpacks.net/icons/2/free-mobile-phone-icon-2636-thumb.png',
+    },
+    {
+      id :5,
+      name: 'Product3',
+      description:'This is new Product',
+      price: 400,
+      image:
+        'https://www.iconpacks.net/icons/2/free-mobile-phone-icon-2636-thumb.png',
+    },
+    {
+      id :6,
+      name: 'Product3',
+      description:'This is new Product',
+      price: 130,
+      image:
+        'https://www.iconpacks.net/icons/2/free-mobile-phone-icon-2636-thumb.png',
+    },
+    {
+      id :7,
+      name: 'Product3',
+      description:'This is new Product',
+      price: 340,
       image:
         'https://www.iconpacks.net/icons/2/free-mobile-phone-icon-2636-thumb.png',
     },
@@ -48,9 +83,9 @@ const ProductWrapper = () => {
 
 const styles = StyleSheet.create({
   main: {
-    flex: 1,
+    flex :1,
     marginTop: 20,
-    backgroundColor: '#f27672',
+  backgroundColor: '#d1d8ed',
   },
 });
 

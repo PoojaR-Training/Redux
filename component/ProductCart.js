@@ -13,7 +13,7 @@ const ProductCart = ({ itemId }) => {
   
 const styles = StyleSheet.create({
   btn: {
-    fontSize: 30,
+    fontSize: 25,
     backgroundColor: 'transparent',
     fontWeight: 'bold',
     padding: 5,
